@@ -20,6 +20,6 @@ CMD ["/bin/echo","this is a echo test"]
 #ENTRYPOINT ls -l
 #ENTRYPOINT ["memcached"]
 #USER root
-#ADD test /etc/
-#EXPOSE 13080
-EXPOSE 80
+ADD test /etc/
+EXPOSE 13080
+#EXPOSE 80
